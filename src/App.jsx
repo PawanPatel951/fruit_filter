@@ -2,9 +2,6 @@ import { memo, useMemo, useState } from 'react'
 import './App.css'
 
 function App() {
-   useEffect(() => {
-    document.title = "Search Fruits 🍓";
-  });
   const [searchTerm, setSearchTerm] = useState("");
   const items = [
   "🍎 Apple",
